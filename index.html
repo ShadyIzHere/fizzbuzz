@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Game</title>
+    <link rel="stylesheet" href="StyleSheets/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>FizzBuzz</h1>
+
+    <!--Number-->
+    <div id="number">
+      <label id="num"></label><br><br>
+      
+    </div>
+
+        <label for="score">Score</label>
+    <p id="score">0</p>
+
+    <!--Timer-->
+    <div id="timer-container">
+      <div id="timer-bar"></div>
+    </div>
+
+    <!--controls-->
+    <div id="control">
+      <button id="btn1" class="option" data-number="1">Fizz</button>
+      <button id="btn2" class="option" data-number="2">Buzz</button>
+      <button id="btn3" class="option" data-number="3">FizzBuzz</button>
+      <button id="btn4" class="option" data-number="4">None</button>
+    </div>
+
+    <span id="QuitButton"><button class="metaControl">Quit</button></span>
+    <span  id="RestartButton"><button class="metaControl">Restart</button></span><br /><br />
+
+
+
+    <script src="JavaScripts/main.js"></script>
+  </body>
+</html>

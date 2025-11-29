@@ -1,0 +1,74 @@
+body{
+  text-align: center;
+  margin:  0;
+  height: auto;
+  width: auto;
+  min-height: 100vh;
+  max-width: 100%;
+  background-image: linear-gradient(#C47BE4, #7132CA);
+  background-repeat: no-repeat;
+  font-family: "Titan One";
+  padding: 10%;
+}
+h1{
+  font-size: clamp(1.8rem, 7vw, 20rem);
+  color: #1a191a;
+}
+#number{
+  font-size: 20px;
+  color: #1a191a;
+}
+#timer-container {
+  width: 100%;
+  height: 12px;
+  background-color: #ddd;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+#timer-bar {
+  width: 100%;
+  height: 100%;
+  background-color: #e7262f;
+  transition: width linear;
+}
+
+.option{
+  background-color: #7132CA;
+  color: #F29AAE;
+  font-size: 20px;
+  font-family: "Titan One";
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px;
+  border-style: groove;
+  border-color: #0a0512;
+  border-radius: 15px;
+}
+
+#control{
+  padding: 10px;
+}
+
+.metaControl{
+  background-color: #FF3838;
+  color: #ddc4c4;
+  border: 1px;
+  border-radius: 15px;
+  border-style: groove;
+  border-color: #120506;
+  stroke-width: 1px;
+  font-family: "Titan One";
+}
+
+.option:hover{
+  box-shadow: 1px 1px rgb(55, 54, 83);
+  cursor: pointer;
+  transform: scale(110%);
+}
+
+.metaControl:hover{
+  box-shadow: 1px 1px blue;
+  cursor: pointer;
+  transform: scale(110%);
+}
